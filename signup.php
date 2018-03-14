@@ -203,17 +203,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </div>
                         </div>  
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6" style="vertical-align:middle; ">
                                 <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                                     <input type="text" id="userName1" name="userName" class="form-control" value="<?php echo $userName; ?>" placeholder="@UserName*" required="required">
                                     <p class="help-block text-danger"><?php echo $username_err; ?></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group<?php echo (!empty($lang_err)) ? 'has-error' : ''; ?>">
-                                    <select class="col-md-12" name="langValue" class="form-control"value="<?php echo $lang; ?>" placeholder= "Choose a Language">
+                                <div class="form-group <?php echo (!empty($lang_err)) ? 'has-error' : ''; ?>">
+                                    <select class="form-control " name="langValue" class="form-control"value="<?php echo $lang; ?>" placeholder= "Choose a Language">
                                         <p class="help-block text-danger"><?php echo $lang_err; ?></p>
-                                        <option value="Lanug">Choose a Language</option>
+                                        <option value="EN">Choose a Language</option>
                                         <option value="AF">Afrikanns</option>
                                         <option value="SQ">Albanian</option>
                                         <option value="AR">Arabic</option>
