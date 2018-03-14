@@ -178,7 +178,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         </br>
                         </br>
                         </br>
-                        <h2>Get Start it!</h2> 
+                        <h2>Get Started!</h2> 
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
