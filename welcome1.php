@@ -141,7 +141,7 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
                                 <li> <a  href="contact.html">Contact</a> </li>
                                 <li> <a href="logout.php">Sign Out</a> </li>
                                 <!-- wrapped username in an <a> tag to get css formatting of <a> objects -->
-                                <li><a>Hi,<b><?php echo htmlspecialchars($_SESSION['userName']); ?></b></a> </li>
+                                <li><a href="dashboard.php">Hi,<b><?php echo htmlspecialchars($_SESSION['userName']); ?></b></a> </li>
                             </ul>
                         </div>
                     </div>
