@@ -5,6 +5,7 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
     header("location: login.php");
     exit;
 }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -55,7 +56,7 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
             <?php
             // Include DBconnection file
             require_once 'config.php';
-
+            $link->set_charset('utf8');
             // API method is hardcoded for now, but can use a $_GET from HTML page depending on requested functionality.
             $method = "artist.getsimilar";
 
