@@ -1,11 +1,11 @@
 <?php
 session_start();
+
 // If session variable is not set it will redirect to login page
 if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
     header("location: login.php");
     exit;
 }
-
 ?>
 <!DOCTYPE html>
 <html>
