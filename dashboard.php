@@ -52,6 +52,7 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
                 </nav>
             </div>
         </header>
+        <div id="search" style="height:75px"></div>
         <div class="">
             <?php
             // Include DBconnection file
@@ -61,7 +62,7 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
             $method = "artist.getsimilar";
 
             // TODO Change parameters and get methods to match last.fm parameters.
-            $artist = $_GET['artist'];
+            $artist = "";
             $userName = "";
             if (isset($_SESSION['userName'])) {
                 $userName = $_SESSION['userName'];

@@ -29,7 +29,7 @@
         }
 
 // Attempt create table query execution
-        $sql1 = "CREATE TABLE IF NOT EXISTS users(
+        $sql1 = "CREATE TABLE IF NOT EXISTS ProjectDB.users(
                 firstName VARCHAR(30) NOT NULL,
                 lastName VARCHAR(30) NOT NULL,
                 email VARCHAR(70) NOT NULL UNIQUE,
@@ -38,7 +38,7 @@
                 password VARCHAR(255) NOT NULL,
                 created_at DATETIME DEFAULT CURRENT_TIMESTAMP
             )";
-        $sql2 = "CREATE TABLE IF NOT EXISTS search(
+        $sql2 = "CREATE TABLE IF NOT EXISTS ProjectDB.search(
                 userName VARCHAR(50) NOT NULL,
                 searchParameter NVARCHAR(1000) NOT NULL,
                 created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
