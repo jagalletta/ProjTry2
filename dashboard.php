@@ -199,6 +199,17 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
                     echo "<div id='search' style='height:75px'></div>";
                 }
             }
-
             ?>
         </div>
+        <footer id="footer">
+            <div id="nav">
+                <div class="navbar-fixed-bottom">
+                    <nav class="navbar navbar-custom">
+                        <div class="container">
+                            <p align="center">Copyright &copy; 2018 Team 4</p>
+                        </div>
+                    </nav>    
+                </div>   
+        </footer>
+    </body>
+</html>
