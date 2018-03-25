@@ -136,7 +136,7 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse navbar-main-collapse">
                             <ul class="nav navbar-nav">
-                                <li> <a href="welcome.php">Home</a> </li>
+                                <li> <a href="index.php">Home</a> </li>
                                 <li> <a  href="about.html">About Us</a> </li>
                                 <li> <a  href="contact.html">Contact</a> </li>
                                 <li> <a href="logout.php">Sign Out</a> </li>
