@@ -143,8 +143,8 @@ if (isset($_SESSION['userName']) && !empty($_SESSION['userName'])) {
                         <div class="collapse navbar-collapse navbar-main-collapse">
                             <ul class="nav navbar-nav">
                                 <li> <a href="index.php">Home</a> </li>
-                                <li> <a  href="about.html">About Us</a> </li>
-                                <li> <a  href="contact.html">Contact</a> </li>
+                                <li> <a  href="about.php">About Us</a> </li>
+                                <li> <a  href="contact.php">Contact</a> </li>
                                 <li><a href="login.php">Login</a> </li>
                                 <li> <a href="signup.php">Sign Up</a> </li>
                             </ul>
