@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             session_start();
                             $_SESSION['userName'] = $userName;
                             $_SESSION['language'] = $language;
-                            header("location: welcome1.php");
+                            header("location: welcome.php");
                         } else {
                             // Display an error message if password is not valid
                             $password_err = 'The password you entered was not valid.';
