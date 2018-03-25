@@ -17,7 +17,7 @@
         <link rel="stylesheet" type="text/css"  href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
         <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
         <?php
         /* Attempt MySQL server connection. Assuming you are running MySQL
           server with default setting (user 'root' with no password) */
