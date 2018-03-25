@@ -153,7 +153,7 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
                         <div class="intro-text">
                             <h1>MusicBass</h1>
                             <p>Search Last.fm Similar Artists </p>
-                            <img src='http://vectorlogofree.com/wp-content/uploads/2014/04/3906-last-fm-icon-vector-icon-vector-eps.png' height=40 alt="last.fm logo"></br>
+                            <img src='img/3906-last-fm-icon-vector-icon-vector-eps.png' height=40 alt="last.fm logo"></br>
                             <h3>Enter search criteria to begin...</h3>
                             <form class='w3-light-grey' style='margin-bottom:15px;' name="searchForm">
                                 <div style="text-align: center;">
