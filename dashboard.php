@@ -20,9 +20,6 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
         <!-- Bootstrap -->
         <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-
-        <!-- Stylesheet
-        ================================================== -->
         <link rel="stylesheet" type="text/css"  href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
         <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
