@@ -4,25 +4,17 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/ProjTry2/createDB.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/config.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/css/bootstrap.css</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/css/style.css</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/createTable.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/dashboard.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/css/bootstrap.min.css</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/login.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/resetpass.php</file>
+            <file>file:/C:/xampp/htdocs/ProjTry2/index.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/welcome.html</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/about.html</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/css/nivo-lightbox/nivo-lightbox.css</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/index.html</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/forgetPW.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/artists.php</file>
+            <file>file:/C:/xampp/htdocs/ProjTry2/resetpass.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/welcome.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/contact.html</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/css/nivo-lightbox/default.css</file>
+            <file>file:/C:/xampp/htdocs/ProjTry2/about.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/signup.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/contact.php</file>
+            <file>file:/C:/xampp/htdocs/ProjTry2/sendMail.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/logout.php</file>
         </group>
     </open-files>
