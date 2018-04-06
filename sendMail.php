@@ -4,7 +4,8 @@
 // If you are using Composer (recommended)
 //require 'vendor/autoload.php';
 // If you are not using Composer
-require("~/stack/sendgrid-php/sendgrid-php.php");
+require("../../stack/sendgrid-php/sendgrid-php.php");
+
 
 $name = $_POST['name'];
 $email_address = $_POST['email'];
