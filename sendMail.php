@@ -5,6 +5,7 @@
 //require 'vendor/autoload.php';
 // If you are not using Composer
 require("../../stack/sendgrid-php/sendgrid-php.php");
+echo "You made it this far.";
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
