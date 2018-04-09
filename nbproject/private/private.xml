@@ -5,15 +5,14 @@
         <group>
             <file>file:/C:/xampp/htdocs/ProjTry2/createDB.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/createTable.php</file>
+            <file>file:/C:/xampp/htdocs/ProjTry2/about.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/dashboard.php</file>
+            <file>file:/C:/xampp/htdocs/ProjTry2/signup.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/login.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/index.php</file>
+            <file>file:/C:/xampp/htdocs/ProjTry2/contact.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/welcome.html</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/resetpass.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/welcome.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/about.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/signup.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/contact.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/sendMail.php</file>
             <file>file:/C:/xampp/htdocs/ProjTry2/logout.php</file>
         </group>
