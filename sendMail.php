@@ -1,4 +1,4 @@
-?php?<?php
+<?php
 // using SendGrid's PHP Library
 // https://github.com/sendgrid/sendgrid-php
 // If you are using Composer (recommended)
