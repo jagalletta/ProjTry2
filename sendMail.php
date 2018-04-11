@@ -17,7 +17,6 @@ $to = new SendGrid\Email("John Galletta", "jagalletta@gmail.com");
 $content = new SendGrid\Content("text/plain", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content); 
 $apiKey = getenv('SENDGRID_API_KEY',true) ;
-echo "Getenv local API Key = \"".$apiKey."\" "."<br>";
 $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
 echo $response->statusCode();
