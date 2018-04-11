@@ -10,7 +10,7 @@ require("/opt/bitnami/sendgrid-php/sendgrid-php.php");
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
-putenv('SENDGRID_API_KEY=This is the api key.');
+//putenv('SENDGRID_API_KEY=This is the api key.');
 $from = new SendGrid\Email($name,$email_address);
 $subject = "Musicbass message from ".$name;
 $to = new SendGrid\Email("John Galletta", "jagalletta@gmail.com");
