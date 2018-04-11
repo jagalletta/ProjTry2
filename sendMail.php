@@ -5,6 +5,7 @@
 //require 'vendor/autoload.php';
 // If you are not using Composer
 require("/opt/bitnami/sendgrid-php/sendgrid-php.php");
+require('getenv');
 
 $name = $_POST['name'];
 $email_address = $_POST['email'];
