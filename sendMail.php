@@ -19,7 +19,7 @@ $mail = new SendGrid\Mail($from, $subject, $to, $content);
 $apiKey = getenv('SENDGRID_API_KEY',true) ;
 $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
-echo $response->statusCode();
+echo $response->statusCode()." ";
 print_r($response->headers());
 echo $response->body();
 ?>
