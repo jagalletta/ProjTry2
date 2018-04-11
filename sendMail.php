@@ -16,7 +16,10 @@ $subject = "Musicbass message from ".$name;
 $to = new SendGrid\Email("John Galletta", "jagalletta@gmail.com");
 $content = new SendGrid\Content("text/plain", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
-$apiKey = $_SERVER['SENDGRID_API_KEY'];
+if (getenv('SENDGRID_API_KEY') != false){    
+    $apiKey = getenv('$SENDGRID_API_KEY');
+    echo "variable is not false";
+}
 echo "API Key = '".$apiKey."' ";
 $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
