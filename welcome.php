@@ -96,7 +96,7 @@ if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])) {
                 //results_area.style = resultsPlaceholderStyle;
                 results_area.innerHTML = resultsPlaceholderHTML;
             }
-            function startDictation() { 
+            function startDictation() {
                 if (window.hasOwnProperty('webkitSpeechRecognition')) {
                     var recognition = new webkitSpeechRecognition();
                     recognition.continuous = false;
