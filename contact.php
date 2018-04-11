@@ -35,8 +35,20 @@ session_start();
                                 <li> <a href="index.php">Home</a> </li>
                                 <li> <a href="about.php">About Us</a> </li>
                                 <li> <a href="contact.php">Contact</a> </li>
-                                <li> <a id="nav4" href="login.php">Login</a> </li>
-                                <li> <a id="nav4" href="signup.php">Sign Up</a> </li>
+                                <?php
+                                    if (!isset($_SESSION['userName']) || empty($_SESSION['userName'])){
+                                ?>
+                                        <li> <a id="nav4" href="login.php">Login</a> </li>
+                                        <li> <a id="nav4" href="signup.php">Sign Up</a> </li>
+                                <?php
+                                    }else{
+                                ?>
+                                        <li> <a href="logout.php">Sign Out</a> </li>
+                                        <!-- wrapped username in an <a> tag to get css formatting of <a> objects -->
+                                        <li><a href="dashboard.php">Hi,<b><?php echo htmlspecialchars($_SESSION['userName']); ?></b></a> </li>
+                                <?php
+                                    }
+                                ?>
                             </ul>
                         </div>
                     </div>
