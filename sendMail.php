@@ -22,7 +22,8 @@ $response = $sg->client->mail()->send()->post($mail);
 if ($response->statusCode() == 202){
     //javascriptalert sent
     //echo "Your message has been sent to John!";
-    echo '<script type="text/javascript">alert("Your message has been sent!"); </script>';
+    echo '<script type="text/javascript">alert("Your message has been sent!"); window.location = "https://www.musicbass.live";</script>';
+    
 }else{
     //"Something went wrong.  Please make sure the form is complete, or send me a message at john.a.galletta@drexel.edu."
     echo "Something went wrong.  Please make sure the form is complete, or send me a message at john.a.galletta@drexel.edu.";
