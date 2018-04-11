@@ -19,7 +19,13 @@ $mail = new SendGrid\Mail($from, $subject, $to, $content);
 $apiKey = getenv('SENDGRID_API_KEY',true) ;
 $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
-echo $response->statusCode()." ";
-print_r($response->headers());
-echo $response->body();
+if ($response->statusCode() == 202){
+    //javascriptalert sent
+    echo "Your message has been sent to John!";
+}else{
+    //"Something went wrong.  Please make sure the form is complete, or send me a message at john.a.galletta@drexel.edu."
+    echo "Something went wrong.  Please make sure the form is complete, or send me a message at john.a.galletta@drexel.edu.";
+}
+//print_r($response->headers());
+//echo $response->body();
 ?>
