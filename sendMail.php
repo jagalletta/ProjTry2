@@ -22,8 +22,7 @@ $response = $sg->client->mail()->send()->post($mail);
 if ($response->statusCode() == 202){
     echo '<script type="text/javascript">alert("Your message has been sent!"); window.location = "https://www.musicbass.live";</script>';
 }else{
-    echo "Something went wrong.  Please make sure the form is complete, or send me a message at john.a.galletta@drexel.edu.";
-    echo '<script type="text/javascript">alert("Something went wrong.  Please make sure the form is complete, or send me a message at john.a.galletta@drexel.edu."); window.location = "https://www.musicbass.live/contact.php";</script>';
+    echo '<script type="text/javascript">alert("Something went wrong.  Please try again later or contact me at john.a.galletta@drexel.edu."); window.location = "https://www.musicbass.live/contact.php";</script>';
 }
 //print_r($response->headers());
 //echo $response->body();
