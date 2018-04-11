@@ -19,6 +19,8 @@ $mail = new SendGrid\Mail($from, $subject, $to, $content);
 if (getenv('SENDGRID_API_KEY') != false){    
     $apiKey = getenv('$SENDGRID_API_KEY');
     echo "variable is not false";
+}else{
+    echo "variable is not set";
 }
 echo "API Key = '".$apiKey."' ";
 $sg = new \SendGrid($apiKey);
