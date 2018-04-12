@@ -9,8 +9,9 @@ $firstName_err = $lastName_err = $email_err = $username_err = $lang_err = $passw
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //Validate FirstName
     if (empty($_POST["firstName"])) {
-        $firstName_err = "Please enter a  firstName.";
+        $firstName_err = "Please enter a firstName.";
     } else {
+        
         $firstName = trim($_POST['firstName']);
     }
 
