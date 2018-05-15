@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/ProjTry2/config.php</file>
-<<<<<<< HEAD
-=======
-            <file>file:/C:/xampp/htdocs/ProjTry2/.setMailKey.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/welcome.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/about.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/login.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/contact.php</file>
-            <file>file:/C:/xampp/htdocs/ProjTry2/sendMail.php</file>
->>>>>>> bfeab3b563c24c0930ab80c42469cca58ba636a7
             <file>file:/C:/xampp/htdocs/ProjTry2/.gitignore</file>
         </group>
     </open-files>
