@@ -103,28 +103,57 @@ if (isset($_SESSION['userName']) && !empty($_SESSION['userName'])) {
                 results_area.innerHTML = resultsPlaceholderHTML;
             }
             function startDictation() { //from Google API Example at
+                //Check if browser is capable of this function
                 if (window.hasOwnProperty('webkitSpeechRecognition')) {
+                    
+                    //Creat new instance of the speech recognition object
                     var recognition = new webkitSpeechRecognition();
+                    
+                    //set continuous to false so recognition returns the first phrase detected and/or times out
                     recognition.continuous = false;
+                    
+                    //if was set to continuous, the recognition object would be able to return updates to what it's hearing
                     recognition.interimResults = false;
+                    
+                    //set default language - this is where we can set to user language once user is logged in.
                     recognition.lang = "en-US";
+                    
+                    //start listening
                     recognition.start();
+                    
+                    //change microphone gif from static image to listening mic
                     document.getElementById("micImg").src = "img/mic-animate.gif";
+                    
+                    //this is where we define what the recoognition does when it returns a result - notice it is an inline function
                     recognition.onresult = function (e) {
+                        
+                        //here we set the value of the searchbox named artist to the transcript result.  
+                        //the [0][0] here references the first location in a 2d array
+                        //if we used continuous recognition, there may be other values such as [0][1] or [0][2] which you may loop through
                         document.getElementById('artist').value
                                 = e.results[0][0].transcript;
+                        
+                        //stop listening
                         recognition.stop();
+                        
+                        //change mic image back to static
                         document.getElementById('micImg').src = "img/mic.gif";
+                        
+                        //call search function
                         showResults();
                     };
+                    //error catching here
                     recognition.onerror = function (e) {
+                        
+                        //stop listening
                         recognition.stop();
+                        
+                        //change mic image to static
                         document.getElementById('micImg').src = "img/mic.gif";
                     }
-                    //recognition.ontimout = function (e){
-                    //  ??? something like this to turn off mic-animate.gif and set to mic.gif ???
-                    //}
+                    
                 } else {
+                    //error message if browser is not compatible
                     alert("Webkit speech recognition is not supported by this browser.");
                 }
             }
